@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptar e Desencriptar Texto</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Encriptar e Desencriptar Texto</h1>
+        <textarea id="inputText" placeholder="Entre com o seu Texto"></textarea>
+        <input type="text" id="key" placeholder="Entre com a sua chave">
+        <button onclick="encryptText()">Encriptar</button>
+        <button onclick="decryptText()">Desencriptar</button>
+        <textarea id="outputText" placeholder="A saída será exibida aqui" readonly></textarea>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
